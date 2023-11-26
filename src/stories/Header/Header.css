@@ -1,0 +1,15 @@
+.header {
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgray;
+    box-shadow: 1px 2px 8px 0px lightgray;
+    margin:0px; 
+}
+
+.header--simple {
+    color:black;
+}
+
+.header--food {
+    color:red;
+}

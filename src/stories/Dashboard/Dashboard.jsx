@@ -1,8 +1,11 @@
 import './Dashboard.css';
+import Header from '../Header/Header';
 
 const Dashboard = () => {
     return(
-        <h1 className="dashboard">Landing Page</h1>
+        <>
+            <Header headerStyle='food' text='Food App'/>
+        </>
     )
 }
 
