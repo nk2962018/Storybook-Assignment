@@ -9,14 +9,8 @@ export default {
     },
 }
 
-export const SimpleHeader = {
-  args : {
-    text : 'Header',
-  }
-}
-
 export const FoodAppHeader = {
     args : {
-      text : 'FoodApp',
+      text : 'Food App',
     }
 }
