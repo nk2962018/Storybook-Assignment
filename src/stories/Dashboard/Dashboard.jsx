@@ -2,6 +2,7 @@ import './Dashboard.css';
 import Header from '../Header/Header';
 import { cardList } from '../../Constants/constants';
 import Card from '../Card/Card';
+import Footer from '../Footer/Footer';
 
 const Dashboard = () => {
     return(
@@ -14,6 +15,7 @@ const Dashboard = () => {
                     ))
                 }
             </div>
+            <Footer/>
         </>
     )
 }
