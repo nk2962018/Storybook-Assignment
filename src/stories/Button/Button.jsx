@@ -1,10 +1,11 @@
 import propTypes from 'prop-types';
 import './Button.css';
 
-const Button = ({primary , buttonColor,label, onClick}) => {
+const Button = ({ buttonColor,label, onClick}) => {
     return(
         <button 
             className={`button button--${buttonColor}`}
+            onClick={onClick}
         >
             {label}
         </button>

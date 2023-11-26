@@ -1,0 +1,19 @@
+.input{
+    padding:10px;
+    margin:5px;
+}
+
+.input--small{
+   padding:5px;
+   width:100px
+}
+
+.input--medium{
+   padding:6px;
+   width:150px
+}
+
+.input--large{
+   padding:7px;
+   width:200px
+}
