@@ -1,0 +1,22 @@
+.button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button--primary{
+    background-color:#008CBA;
+}
+
+.button--secondary{
+    background-color:#E7E7E7;
+    color: black;
+}
+
+.button--success{
+    background-color:#4CAF50;
+}
