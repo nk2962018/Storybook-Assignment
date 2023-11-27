@@ -10,7 +10,6 @@ const LoginForm = () => {
     const [isLoggedIn, setLoggedIn] = useState(false);
 
     const handleLogin = () => {
-        // Perform any authentication logic here (for simplicity, I'm just checking if a username is entered)
         if (username) {
           setLoggedIn(true);
         }
