@@ -13,7 +13,7 @@ const Button = ({ buttonColor,label, onClick}) => {
 }
 
 Button.propTypes = {
-    buttonColor:propTypes.oneOf(['primary','secondary','success']),
+    buttonColor:propTypes.oneOf(['primary','secondary','success','danger']),
     label:propTypes.string.isRequired,
     onClick:propTypes.func
 }

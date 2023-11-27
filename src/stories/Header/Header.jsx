@@ -6,12 +6,21 @@ import LoginForm from '../Form/Form';
 
 const Header = ({text,headerStyle}) => {
     return(
-        <div className='header'>
-            
-                <Image src={logo} alt='logo' imageStyle='logo'/>
-                <p className={`header--${headerStyle}`}>{text}</p>
-                <LoginForm/>
-        </div>
+        <>
+            <nav class="navbar navbar-inverse header">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                    <Image src={logo} alt='logo' imageStyle='logo'/> <span className={`header--${headerStyle}`}>{text}</span>
+                    </a>
+                    </div>
+                
+                    <ul class="nav  navbar-right">
+                    <LoginForm/>
+                    </ul>
+                </div>
+            </nav>
+        </>
     )
 }
 

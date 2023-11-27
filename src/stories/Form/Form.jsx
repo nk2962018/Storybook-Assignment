@@ -20,22 +20,22 @@ const LoginForm = () => {
         setUsername('');
         setPassword('');
         setLoggedIn(false);
-      };
+    };
     return(
         <>
             {isLoggedIn ? (
                 <>
                     <div>
                     {isLoggedIn && (
-                        <div>
-                            <p className="user-text">Hello {username}</p>
+                        <div className="user-text">
+                            <p >Hello {username}</p>
                         </div>
                     )}
                     </div>
-                    <Button size="small"  onClick={handleLogout} label="Log out" /> 
+                    <Button size="small"  onClick={handleLogout} label="Log out" buttonColor='danger'/> 
                 </>
             ) : (
-                <>
+                <div className="d-flex justify-content-end">
                     <Input 
                     type='text'  
                     placeholder='Enter Username' 
@@ -52,9 +52,9 @@ const LoginForm = () => {
                         onChange={(e) => setPassword(e.target.value)}
                     />
 
-                    <Button type='submit' buttonColor='primary' label='Login' onClick={handleLogin}/>
+                    <Button type='submit' buttonColor='success' label='Login' onClick={handleLogin}/>
 
-                </>
+                </div>
             )}
         </>
     )

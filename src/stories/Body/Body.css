@@ -1,9 +1,9 @@
-.description-text--red{
+.description-text--greyish{
     color:black;
     text-align: justify;
     font-size: 1rem;
-    color: red;
-    width:200px;
+    color:rgba(2, 6, 12, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .description-text--green{
@@ -11,5 +11,5 @@
     text-align: justify;
     font-size: 1rem;
     color: green;
-    width: 200px;
+    font-family:Arial, Helvetica, sans-serif;
 }

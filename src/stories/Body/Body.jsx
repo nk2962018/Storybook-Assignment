@@ -1,5 +1,6 @@
 import Image from "../Image/Image";
 import propTypes from 'prop-types';
+import './Body.css';
 
 const Body = ({src,alt,imageStyle,descriptionText,descriptionStyle}) => {
     return(
@@ -17,7 +18,7 @@ const Body = ({src,alt,imageStyle,descriptionText,descriptionStyle}) => {
 
 Body.propTypes = {
     descriptionText : propTypes.string.isRequired,
-    descriptionStyle : propTypes.string,
+    descriptionStyle : propTypes.oneOf(['greyish','green']),
     alt:propTypes.string,
     src:propTypes.string.isRequired,
     imageStyle:propTypes.string  

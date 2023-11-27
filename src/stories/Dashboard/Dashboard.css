@@ -1,7 +1,9 @@
 .dashboard{
     font-family: monospace;
 }
+
 .card-list{
+    margin:10px;
     display: flex;
     flex-wrap: wrap;
 }
