@@ -30,7 +30,7 @@ export const cardList = [
           descriptionText:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
           src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7",
           alt:'Pizza Hut',
-          href :"https://online.kfc.co.in/",
+          href :"https://www.pizzahut.co.in/",
           target:'_blank',
           linkText:'know More...'        
         }
@@ -48,7 +48,7 @@ export const cardList = [
           descriptionText:'2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
           src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/1ace5fa65eff3e1223feb696c956b38b",
           alt:'Subway',
-          href :"https://online.kfc.co.in/",
+          href :"https://subway.in/",
           target:'_blank',
           linkText:'know More...'        
         }
@@ -66,7 +66,7 @@ export const cardList = [
           descriptionText:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
           src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/195876a3181ef63f76e45e3a7b49b585",
           alt:'Nandana Palace',
-          href :"https://online.kfc.co.in/",
+          href :"http://nandhanarestaurants.com/",
           target:'_blank',
           linkText:'know More...'        
         }

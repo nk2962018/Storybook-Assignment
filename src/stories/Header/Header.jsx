@@ -10,11 +10,9 @@ const Header = ({text,headerStyle}) => {
             <nav class="navbar navbar-inverse header">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                    <Image src={logo} alt='logo' imageStyle='logo'/> <span className={`header--${headerStyle}`}>{text}</span>
-                    </a>
+                        <Image src={logo} alt='logo' imageStyle='logo'/> 
+                        <span className={`header--${headerStyle}`}>{text}</span>
                     </div>
-                
                     <ul class="nav  navbar-right">
                     <LoginForm/>
                     </ul>
